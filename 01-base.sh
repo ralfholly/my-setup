@@ -16,6 +16,7 @@ curl \
 wget \
 htop \
 nmap \
+acpi \
 "
 
 sudo apt install -y $PACKAGES "$@"
