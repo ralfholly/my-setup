@@ -15,6 +15,7 @@ tmux \
 curl \
 wget \
 htop \
+nmap \
 "
 
-sudo apt install -y $PACKAGES
+sudo apt install -y $PACKAGES "$@"

@@ -5,13 +5,15 @@ set -e
 PACKAGES="\
 g++
 cscope \
-ctags \
+exuberant-ctags \
 cgdb \
-gdb
-cgdb
-clang-tidy
-clang-format
-cmake
+gdb \
+cgdb \
+clang-tidy \
+clang-format \
+cmake \
+stress \
+netstat \
 "
 
-sudo apt install -y $PACKAGES
+sudo apt install -y $PACKAGES "$@"

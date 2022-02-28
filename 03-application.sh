@@ -11,4 +11,4 @@ chromium-browser
 thunderbird
 "
 
-sudo apt install -y $PACKAGES
+sudo apt install -y $PACKAGES "$@"
