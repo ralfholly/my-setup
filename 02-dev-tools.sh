@@ -13,7 +13,6 @@ clang-tidy \
 clang-format \
 cmake \
 stress \
-netstat \
 "
 
 sudo apt install -y $PACKAGES "$@"
